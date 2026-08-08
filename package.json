@@ -1,0 +1,16 @@
+{
+  "name": "coffee-shop-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack Coffee Shop E-Commerce app (React + Node/Express + MongoDB)",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix client",
+    "postinstall": "npm run install:all",
+    "dev": "concurrently -n BACKEND,CLIENT -c blue,green \"npm run dev --prefix backend\" \"npm run dev --prefix client\"",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

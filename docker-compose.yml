@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    container_name: coffee-shop-backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - CLIENT_URL=http://localhost:8080
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./client
+      args:
+        VITE_API_URL: /api
+    container_name: coffee-shop-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
