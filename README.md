@@ -9,7 +9,14 @@ reviews & ratings, wishlist, admin dashboard with sales analytics, and an AI Bar
 assistant powered by Claude.
 
 ---
+## 👥 Project Team
 
+This project was developed as a group project by:
+
+1. Sania Satvilkar — GitHub: g24.sania.satvilkar@gnkhalsa.edu.in
+2. Rafat Surve — GitHub: g24.rafat.surve@gnkhalsa.edu.in
+3. Ayan Khan— GitHub: g24.ayan.khan@gnkhalsa.edu.in
+   
 ## 📁 Project Structure
 
 ```
