@@ -290,7 +290,6 @@ Once both are deployed, set `CLIENT_URL` on the backend to your live Vercel URL 
 ## 🎟️ Default Coupons (after seeding)
 
 | Code | Discount | Condition |
-|---|---|---|
 | `WELCOME10` | 10% off (max ₹150) | No minimum |
 | `COFFEE20` | 20% off (max ₹300) | Orders ≥ ₹300 |
 | `FIRSTORDER` | ₹200 flat off | Orders ≥ ₹500 |
