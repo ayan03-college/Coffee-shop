@@ -13,9 +13,9 @@ assistant powered by Claude.
 
 This project was developed as a group project by:
 
-1. Sania Satvilkar — GitHub: g24.sania.satvilkar@gnkhalsa.edu.in
-2. Rafat Surve — GitHub: g24.rafat.surve@gnkhalsa.edu.in
-3. Ayan Khan— GitHub: g24.ayan.khan@gnkhalsa.edu.in
+1. Roll no. 494 - Sania Satvilkar — GitHub: g24.sania.satvilkar@gnkhalsa.edu.in
+2. Roll no. 509 - Rafat Surve — GitHub: g24.rafat.surve@gnkhalsa.edu.in
+3. Roll no. 542 - Ayan Khan— GitHub: g24.ayan.khan@gnkhalsa.edu.in
    
 ## 📁 Project Structure
 
